@@ -1,2 +1,3 @@
 system/core github resucc lineage-15.0 git@github.com:galaxys1-resurrected/android_system_core.git
 bionic github resucc lineage-15.0 git@github.com:galaxys1-resurrected/android_bionic.git
+build/make github resucc lineage-15.0 git@github.com:galaxys1-resurrected/android_build.git
