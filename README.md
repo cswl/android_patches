@@ -9,7 +9,8 @@ but is a bit "cleaner"
 ### repos
 https://github.com/galaxys1-resurrected/android_bionic  
 https://github.com/galaxys1-resurrected/android_system_core  
-https://github.com/galaxys1-resurrected/android_build
+https://github.com/galaxys1-resurrected/android_build  
+https://github.com/galaxys1-resurrected/android_frameworks_native
 
 ### usage
 After a `repo sync` repo will checkout the branch from specified remote.  
