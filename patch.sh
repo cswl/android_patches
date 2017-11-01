@@ -8,7 +8,7 @@ while IFS='' read -r LINE || [[ -n "$LINE" ]]; do
   cd "$SOURCE_DIR/$path"
   printf "$path \n"
   if [[ "$1" == "log" ]]; then
-    git log --oneline "$tracking/$branch^..$remote/$branch"
+    git log --oneline --first-parent "$tracking/$branch^..$remote/$branch"
     printf '\n'
   elif [[ "$1" == "checkout" ]]; then
     git checkout "$remote/$branch"
@@ -21,6 +21,9 @@ while IFS='' read -r LINE || [[ -n "$LINE" ]]; do
     git checkout "$remote/$branch"
     git push --force "$remote" "$branch"
     printf '\n'
+  elif [[ "$1" == "unshallow" ]]; then
+    git fetch --depth=5 "$tracking" "$branch"
+    printf '\n' 
   fi
 
 done < "$SCRIPT_DIR/patch.list"
