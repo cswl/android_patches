@@ -1,4 +1,6 @@
-system/core github resucc lineage-15.0 git@github.com:galaxys1-resurrected/android_system_core.git
-bionic github resucc lineage-15.0 git@github.com:galaxys1-resurrected/android_bionic.git
-build/make github resucc lineage-15.0 git@github.com:galaxys1-resurrected/android_build.git
-frameworks/native github resucc lineage-15.0 git@github.com:galaxys1-resurrected/android_frameworks_native.git
+bionic github nougat cm-14.1 git@github.com:galaxys1-resurrected/android_bionic.git
+build/ github nougat cm-14.1 git@github.com:galaxys1-resurrected/android_build.git
+frameworks/av github nougat cm-14.1 git@github.com:galaxys1-nougat/android_frameworks_av.git
+frameworks/base github nougat cm-14.1 git@github.com:galaxys1-nougat/android_frameworks_base.git
+hardware/ril github nougat cm-14.1 git@github.com:galaxys1-nougat/android_hardware_ril.git
+system/core github nougat cm-14.1 git@github.com:galaxys1-resurrected/android_system_core.git
