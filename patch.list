@@ -4,3 +4,4 @@ frameworks/av github nougat cm-14.1 git@github.com:galaxys1-nougat/android_frame
 frameworks/base github nougat cm-14.1 git@github.com:galaxys1-nougat/android_frameworks_base.git
 hardware/ril github nougat cm-14.1 git@github.com:galaxys1-nougat/android_hardware_ril.git
 system/core github nougat cm-14.1 git@github.com:galaxys1-nougat/android_system_core.git
+vendor/cm github nougat cm-14.1 git@github.com:galaxys1-nougat/android_vendor_cm.git
