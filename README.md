@@ -10,9 +10,9 @@ but is a bit "cleaner"
 https://github.com/galaxys1-nougat/android_bionic  
 https://github.com/galaxys1-nougat/android_build  
 https://github.com/galaxys1-nougat/android_frameworks_av  
-https://github.com/galaxys1-nougat/android_frameworks_base   
-https://github.com/galaxys1-nougat/android_hardware_ril  
+https://github.com/galaxys1-nougat/android_frameworks_base    
 https://github.com/galaxys1-nougat/android_system_core   
+https://github.com/galaxys1-nougat/android_vendor_cm  
 
 ### usage
 After a `repo sync` repo will checkout the branch from specified remote.  
